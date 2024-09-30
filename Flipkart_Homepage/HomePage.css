@@ -6,6 +6,7 @@
 
 body{
 	font-family:Roboto,Helvetica,Arial,sans-serif;
+	background-color:#f2f2f2;
 }
 /*Header Navigation Bar*/
 
@@ -15,12 +16,16 @@ body{
 	justify-content:space-evenly;
 	padding:10px 2px 10px 2px;
 	align-items:center;
+	position:sticky;
+	z-index:1;
+	top:0px;
 }
 .flipkartHeaderNav *{
 	background-color:white;
 }
 .flipkartHeaderNav a{
 	text-decoration:none;
+	color:black;
 }
 .searchBarDiv{
 	background-color:#eff5fb;
@@ -60,10 +65,192 @@ body{
 	padding:20px 35px 15px 35px ;
 	background-color:white;
 	margin:10px 15px 10px 15px;
+	cursor:pointer;
 }
 .catagoriesSection *{
 	background-color:white;
 }
 .catagoriesInnerDiv{
 	display:grid;
+}
+
+.catagoriesImage{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.carousalImage{
+	margin-left:1vw;
+	margin-right:1vw;
+	cursor:pointer;
+	width:98%;
+}
+
+/*Best Electronics Section*/
+
+.bestElectronicsDivision{
+	margin-top:1vw;
+	padding-left:1vw;
+	margin-left:1vw;
+	margin-right:1vw;
+	background-color:white;
+}
+.bestElectronicsDivision *{
+	background-color:white;
+}
+
+.bestElectronicHeadingDiv{
+	width:99%;
+}
+
+.bestElectronicsHeading{
+	margin-top:1vw;
+	font-size:22px;
+	font-weight:500;
+}
+
+.bestElectronicsChevron{
+	color:#0066ff;
+	margin-top:1vw;
+	font-size:22px;
+	cursor:pointer;
+}
+
+.bestElectronicsCard1{
+	width:15.8vw;
+	height:17vw;
+	border:1px solid #d9d9d9;
+	border-radius:3px;
+	margin-right:17px;
+	cursor:pointer;
+}
+.bestElectronicsCardImage{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:10.5vw;
+	max-width:15vw;
+}
+
+.bestElectronicsCardImage:hover{
+	height:11vw;
+	max-width:15.3vw;
+}
+
+.bestElectronicsPrdtname{
+	font-size:14px;
+}
+
+.bestElectronicsOffer{
+	font-weight:600;
+	font-size:14px;
+	cursor:pointer;
+}
+
+
+.bestImageAdvertisment{
+	width:100%;
+	height:23vw;
+}
+
+
+/*Advertisment Section*/
+
+.MainAdvertisement{
+	width:96.5vw;
+	margin:0.5vw 1vw ;
+
+}
+
+/*Best Smart Phone Section*/
+.SmartPhoneCardImage{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:12vw;
+	max-width:15vw;
+	margin-top:10px;
+}
+
+.SmartPhoneCardImage:hover{
+	height:12.5vw;
+	max-width:15.3vw;
+}
+
+
+/*Advertisement Section 2*/
+
+.advertisementSection2{
+	display:flex;
+	margin:1vw;
+}
+.advertisementSectionImage{
+	width:31.8vw;
+	margin-right:0.6vw;
+	cursor:pointer;	
+}
+
+.featuredAndAppliances{
+	background-color:white;
+	margin:1vw;
+}
+
+.featuredAndAppliances *{
+	background-color:white;
+}
+
+.featuredBrands{
+	display:flex;
+}
+
+.tvAndAppliances{
+	display:flex;
+}
+
+.mostSearchesSection{
+	width:96vw;
+	margin:10vw 3vw 2vw 1vw;
+  	text-align: justify;
+}
+
+.mostSearched{
+	font-size:12px;
+	color:#737373;
+	cursor:pointer;
+	margin-top:4vh;
+}
+
+.footerSection{
+	background-color:#292b2c;
+	padding:10vh 0px 0px 0px;
+
+}
+
+.footerSection *{
+	background-color:#292b2c;
+	color:white;
+        font-size:12px;
+	font-weight:600;
+
+}
+
+.footerSectionDiv4{
+	padding-right:5vw;
+	border-right:1px solid #e6f2ff;
+}
+
+.footerDivionHead{
+	font-size:13px;
+	color:grey;
+	margin-bottom:1vh;
+}
+
+.footerAnchorSection{
+		border-top:1px solid #e6f2ff;
+		padding:2.5vw 2vw 2.5vw 2vw;
+}
+
+.footerAnchorSection a{
+	text-decoration:none;
 }
