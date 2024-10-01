@@ -1,0 +1,230 @@
+*{
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.flipkartHeader{
+    display: flex;
+    justify-content:center;
+    background-color: #0073e6;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.flipkartHeader a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.headerInputDivision{
+    width: 34vw;
+    margin: 0px 1.2vw 0px 0.8vw;
+    background-color: white;
+    box-shadow: 1px 1px black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 0px 25px;
+}
+
+.headerInput{
+    width: 75%;
+    border: none;
+    height: 35px;
+}
+
+
+.headerAnchor{
+    margin-left: 3.4vw;
+}
+
+.userName:hover> .headerChevronDown{
+    transform: rotate(180deg);
+    transition-duration: 600ms;
+}
+.headerAnchor:hover> .headerChevronDown{
+    transform: rotate(180deg);
+    transition-duration: 600ms;
+}
+
+.catagoriesHeaderSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+    border-bottom:rgb(209, 209, 209) solid 1px ;
+    box-shadow: 1px 1px  rgb(209, 209, 209);
+}
+
+.catagoriesSectionAnchor:hover > .headerChevronDown{
+    transform: rotate(180deg);
+    transition-duration: 600ms;
+    color: #0073e6;
+}
+
+.catagoriesSectionAnchor:hover{
+    color: #0073e6;
+}
+
+.catagoriesSectionAnchor> .headerChevronDown{
+    color: rgb(199, 199, 199);
+}
+
+.catagoriesHeaderSection> a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+
+.screenDivisionButton1{
+    background-color: #ff9900;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    width: 17vw;
+}
+
+.screenDivisionButton2{
+    background-color: #ff6600;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    width: 17vw;
+}
+
+.buttonClassDivion{
+    margin-bottom: 5px;
+}
+
+.productMainImage{
+    width: 34.2vw;
+    height: 77vh;
+    border: 1px solid rgb(232, 224, 224);
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.productImageDivision{
+    top: 45px;
+    position: sticky;
+    height: 70vh;
+}
+
+.pageFullPath{
+    font-size: 12px;
+    color: rgb(132, 131, 131);
+}
+.screenSection2{
+    margin-left: 1vw;
+    margin-top:1.5vw ;
+    width: 60vw;
+}
+
+.pathAndShare{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sharePage{
+    font-size: 13px;
+    margin-right: 2vw;
+}
+
+
+
+.shareIcon{
+    color: rgb(132, 131, 131);    
+}
+
+.productName{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.productNametag{
+    color: rgb(132, 131, 131);  
+}
+
+.productRating{
+    color: rgb(132, 131, 131); 
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.specialPriceSpan{
+    color: rgb(81, 140, 23);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.productDiscountedPrice{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.productOrginalPrice{
+    color: rgb(132, 131, 131); 
+    text-decoration:line-through;
+}
+
+.productOfferPercentage{
+    color: rgb(81, 140, 23);
+    font-size: 15px;
+}
+
+.bankOfferDivision{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bankOfferDivisionHead{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.termsAndConditions{
+    text-decoration: none;
+}
+
+.locationCheckDiv{
+    border-bottom: #0073e6 solid 2px;
+}
+
+.loctionDelivery{
+    color: rgb(132, 131, 131); 
+    font-size: 15px;
+}
+
+.pincodeInputCheck{
+    border: none;
+}
+
+.pincodeCheckAnchor{
+    text-decoration: none;
+}
+
+.orderConditionTime{
+    font-size: 12px;
+}
+
+.viewDetails{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bulletClass{
+    color: rgb(180, 178, 178); 
+    font-size: 20px;   
+}
