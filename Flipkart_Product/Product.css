@@ -1,0 +1,492 @@
+* {
+	font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #f2f2f2;
+}
+
+.flipkartHeader {
+	display: flex;
+	justify-content: center;
+	background-color: #0073e6;
+	padding: 10px 5px 10px 5px;
+	align-items: center;
+	top: 0px;
+	position: sticky;
+	z-index: 1;
+}
+
+.flipkartHeader a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.headerInputDivision {
+	width: 34vw;
+	margin: 0px 1.2vw 0px 0.8vw;
+	background-color: white;
+	box-shadow: 1px 1px black;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 5px 0px 25px;
+}
+
+.headerInput {
+	width: 75%;
+	border: none;
+	height: 35px;
+}
+
+
+.headerAnchor {
+	margin-left: 3.4vw;
+}
+
+.userName:hover>.headerChevronDown {
+	transform: rotate(180deg);
+	transition-duration: 600ms;
+}
+
+.headerAnchor:hover>.headerChevronDown {
+	transform: rotate(180deg);
+	transition-duration: 600ms;
+}
+
+.catagoriesHeaderSection {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px 10px 0px;
+	border-bottom: rgb(209, 209, 209) solid 1px;
+	box-shadow: 1px 1px rgb(209, 209, 209);
+	cursor: pointer;
+	background-color: white;
+}
+
+.catagoriesSectionAnchor:hover>.headerChevronDown {
+	transform: rotate(180deg);
+	transition-duration: 600ms;
+	color: #0073e6;
+}
+
+.catagoriesSectionAnchor:hover {
+	color: #0073e6;
+}
+
+.catagoriesSectionAnchor>.headerChevronDown {
+	color: rgb(199, 199, 199);
+}
+
+.catagoriesHeaderSection>a {
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.screenDivision {
+	width: 100%;
+	margin-right: 2vw;
+	background-color: white;
+}
+
+.productImageDivision {
+	top: 45px;
+	position: sticky;
+	height: 85vh;
+	background-color: white;
+}
+
+.productImageDivision * {
+	background-color: white;
+}
+
+.screenDivisionButton1 {
+	background-color: #ff9900;
+	border: none;
+	padding: 15px 40px 15px 40px;
+	font-weight: 600;
+	color: white;
+	border-radius: 3px;
+	width: 16vw;
+}
+
+.screenDivisionButton2 {
+	background-color: #ff6600;
+	border: none;
+	padding: 15px 40px 15px 40px;
+	font-weight: 600;
+	color: white;
+	border-radius: 3px;
+	width: 15.6vw;
+}
+
+.buttonClassDivion {
+	margin-bottom: 5px;
+}
+
+.productMainImage {
+	width: 32vw;
+	height: 70vh;
+	border: 1px solid rgb(232, 224, 224);
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 10px;
+	margin-top: 8px;
+}
+
+
+.pageFullPath {
+	font-size: 12px;
+	color: rgb(132, 131, 131);
+	cursor: pointer;
+}
+
+.screenSection2 {
+	margin-left: 1vw;
+	margin-top: 1.5vw;
+	width: 60vw;
+	background-color: white;
+	margin-bottom: 10vh;
+}
+
+.screenSection2 * {
+	background-color: white;
+}
+
+.pathAndShare {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sharePage {
+	font-size: 13px;
+	margin-right: 2vw;
+}
+
+
+.shareIcon {
+	color: rgb(132, 131, 131);
+}
+
+.productName {
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.productNametag {
+	color: rgb(132, 131, 131);
+}
+
+.productRating {
+	color: rgb(132, 131, 131);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.specialPriceSpan {
+	color: rgb(81, 140, 23);
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.productDiscountedPrice {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.productOrginalPrice {
+	color: rgb(132, 131, 131);
+	text-decoration: line-through;
+}
+
+.productOfferPercentage {
+	color: rgb(81, 140, 23);
+	font-size: 15px;
+}
+
+.bankOfferDivision {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.bankOfferDivisionHead {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.termsAndConditions {
+	text-decoration: none;
+}
+
+.locationCheckDiv {
+	border-bottom: #0073e6 solid 2px;
+}
+
+.loctionDelivery {
+	color: rgb(132, 131, 131);
+	font-size: 15px;
+}
+
+.pincodeInputCheck {
+	border: none;
+}
+
+.pincodeCheckAnchor {
+	text-decoration: none;
+}
+
+.orderConditionTime {
+	font-size: 12px;
+}
+
+.viewDetails {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.bulletClass {
+	color: rgb(180, 178, 178);
+	font-size: 20px;
+}
+
+.aadisale {
+	color: #0073e6;
+	font-size: 16px;
+}
+
+.FlipkartPlusCoin {
+	width: 28vw;
+}
+
+.aadisale4Star {
+	background-color: #0073e6;
+	color: white;
+	font-size: 12px;
+	padding: 5px 8px;
+	border-radius: 15px;
+}
+
+.productDescription {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.readMore {
+	color: #0073e6;
+	cursor: pointer;
+}
+
+.productSpecification {
+	font-size: 14px;
+	border: rgb(228, 222, 222) solid 1px;
+	border-radius: 5px;
+	margin-bottom: 4vh;
+}
+
+.productDescriptionHead {
+	border-bottom: 1px solid rgb(228, 222, 222);
+	width: 80%;
+	padding: 2.5vw;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.productDescriptionHead2 {
+	width: 80%;
+	padding: 2.5vw;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.manufacturingDetails {
+	padding: 2vw 1.2vw;
+	border-top: 1px solid rgb(228, 222, 222);
+	border-bottom: 1px solid rgb(228, 222, 222);
+}
+
+.manufacturingAnchor {
+	text-decoration: none;
+	font-size: 16px;
+
+}
+
+.allImagesListDiv {
+	vertical-align: middle;
+	margin-top: 1.3vh;
+
+}
+
+.productAllImages1 {
+	border: 2px solid #0073e6;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	margin: 0px;
+	display: list-item;
+	padding-bottom: 8px;
+
+}
+
+.ratingSpan{
+	font-size:12px;
+}
+
+.productAllImages {
+	border: 1px solid rgb(210, 208, 208);
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	margin: 0px;
+	display: list-item;
+	padding-bottom: 8px;
+
+}
+
+.allImagesListDiv:hover>.productAllImages1 {
+	border: 1px solid rgb(210, 208, 208);
+	
+}
+
+.productAllImages:hover {
+	border: 2px solid #0073e6;
+}
+
+.volleyImage {
+	width: 10vw;
+}
+
+.productCardDetails {
+	font-size: 15px;
+	margin-left: 5vw;
+}
+
+.productDiscountedPriceDiff {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.productOrginalPriceDiff {
+	color: rgb(172, 171, 171);
+	text-decoration: line-through;
+}
+
+.productSmallCard {
+	width: 100%;
+}
+
+.productOfferPercentageDiff {
+	font-size: 13px;
+	color: green;
+}
+
+.plusSign {
+	color: rgb(193, 186, 186);
+	margin-top: 5vw;
+	margin-left: 2vw;
+}
+
+.screenDivision2Button {
+	background-color: #7e7c7a;
+	border: none;
+	padding: 2vh 40px 2vh 40px;
+	font-weight: 600;
+	color: white;
+	border-radius: 3px;
+	width: 18vw;
+}
+
+.addAtleast1Item {
+	display: flex;
+	justify-content: space-between;
+	margin: 2vw 2vw 2vw 5vw;
+	align-items: center;
+}
+
+.pleaseAddSpan {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.ratingAndReviews {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.rateProduct {
+	font-size: 15px;
+	padding: 2.5vw 12vh;
+}
+
+.ratingAndReviewDiv {
+	margin: 0px 2vw;
+	background-color: white;
+	padding: 2vw 3vh;
+}
+
+.ratingTableImage {
+	width: 30vw;
+	margin-left: 3vw;
+	cursor: pointer;
+}
+
+.ratingImage {
+	width: 6vw;
+	height: 12vh;
+	cursor: pointer;
+	margin-top: 5vh;
+}
+
+.similarProducts {
+	margin-left: 2vw;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.productDivisionImage {
+	width: 10vw;
+	height: 20vh;
+}
+
+.productCardDetails {
+	cursor: pointer;
+}
+
+.footerSection {
+	background-color: #172337;
+	padding: 10vh 0px 0px 0px;
+}
+
+.footerSection * {
+	background-color: #172337;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.footerSectionDiv4 {
+	padding-right: 5vw;
+	border-right: 1px solid #b7c6e1;
+}
+
+.footerDivionHead {
+	font-size: 12px;
+	color: grey;
+	margin-bottom: 1vh;
+}
+
+.footerAnchorSection {
+	border-top: 1px solid #b7c6e1;
+	padding: 2.5vw 2vw 2.5vw 2vw;
+}
+
+.footerAnchorSection a {
+	text-decoration: none;
+}
