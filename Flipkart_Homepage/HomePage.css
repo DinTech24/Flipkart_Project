@@ -222,13 +222,13 @@ body{
 }
 
 .footerSection{
-	background-color:#292b2c;
+	background-color:#212121;
 	padding:10vh 0px 0px 0px;
 
 }
 
 .footerSection *{
-	background-color:#292b2c;
+	background-color:#212121;
 	color:white;
         font-size:12px;
 	font-weight:600;

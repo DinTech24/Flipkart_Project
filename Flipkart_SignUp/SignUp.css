@@ -90,10 +90,10 @@ body {
 }
 
 .catagoriesHeaderSection> a {
-	font-size: 13px;
+	font-size: 14px;
 	color: black;
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 .blueDivision {
@@ -113,19 +113,19 @@ body {
 }
 
 .loginImage {
-	margin-top: 30vh;
+	margin-top: 25vh;
 }
 
-.loginInnerDivision {
+.SignUpInnerDivision {
 	background-color: white;
 	padding: 5vw 3vw 5vw 3vw;
 }
 
-.loginInnerDivision * {
+.SignUpInnerDivision * {
 	background-color: white;
 }
 
-.loginDivision {
+.SignUpDivision {
 	padding: 3vh 0px 10vh 0px;
 }
 
@@ -159,8 +159,11 @@ body {
 }
 
 .requestSignIn {
-	margin-top: 50vh;
+	margin-top: 2vh;
 	text-align: center;
+	padding: 0.7vw;
+	width: 100%;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
 }
 
 .requestSignInButton {
