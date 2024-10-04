@@ -5,13 +5,13 @@
     		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     		<link rel="stylesheet" href="HomePage.css">
     		<title>Online Shopping Site for Mobile</title>
-    		<link rel="icon" type="image/x-icon" href="">
+    		<link rel="icon" type="image/x-icon" href="HomePage_Assets/favicon.png">
     		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
-	<body>
+	<body class="hideScroll">
 		<div class="flipkartHeaderNav">
-			<a href=""><img src="HomePage_Assets/Logo.png" alt="LogoImage"></a>
+			<a href="D:/Flipkart_Web_Application_Project/Flipkart_Homepage/Flipkart_Homepage.html"><img src="HomePage_Assets/Logo.png" alt="LogoImage"></a>
 			<div class="searchBarDiv">
 				<i class="fa-solid fa-xl fa-magnifying-glass searchLens"></i>
 				<input class="searchBar" placeholder="Search for Products, Brands and More">
@@ -21,7 +21,7 @@
 				<span>Dinil</span>
 				<i class="fa-solid fa-chevron-down fa-xs"></i>
 			</a>
-			<a href="D:\Flipkart_Web_Application_Project\Flipkart_Cart_Page">
+			<a href="D:/Flipkart_Web_Application_Project/Flipkart_Cart_Page/Flipkart_Cart_Page.html">
 				<i class="fa-solid fa-cart-shopping fa-lg"></i>
 				<span>Cart</span>
 			</a>
@@ -29,7 +29,7 @@
 				<i class="fa-solid fa-store fa-lg"></i>
 				<span>Become a Seller</span>
 			</a>
-			<a class="dotMenu" href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+			<a class="dotMenu" href=""><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg"></a>
 		</div>
 
 		<div class="catagoriesSection">
@@ -138,7 +138,7 @@
 			<img src="HomePage_Assets/AdvertisementImage3.png" class="MainAdvertisement">
 		</div>
 
-		<div class="bestElectronicsDivision">
+		<div class="bestElectronicsDivision pb-3">
 			<div class="d-flex justify-content-between bestElectronicHeadingDiv">
 				<span class="bestElectronicsHeading">Deals on Smart Phones</span>
 				<i class="fa-solid fa-circle-chevron-right bestElectronicsChevron"></i>
@@ -194,7 +194,43 @@
 			<img src="HomePage_Assets/AdvertismentSection2Image6.png" class="advertisementSectionImage" alt="AdvImage">
 		</div>
 
-		<div class="featuredAndAppliances">
+		<div class="d-flex mx-3 advertismentAndProducts py-3">
+			<div>
+				<div class="d-flex ">
+					<div class="bestElectronicsCard1 d-grid text-center">
+						<img src="HomePage_Assets/DealsSmartPhone1.png" class="SmartPhoneCardImage" alt="Card Image">
+						<span class="bestElectronicsPrdtname">Moto G85 5G</span>
+						<span class="bestElectronicsOffer">50MP OIS Cam|6000mAh</span>
+					</div>
+
+					<div class="bestElectronicsCard1 d-grid text-center">
+						<img src="HomePage_Assets/DealsSmartPhone2.png" class="SmartPhoneCardImage" alt="Card Image">
+						<span class="bestElectronicsPrdtname">Moto Edge 50 Fusion</span>
+						<span class="bestElectronicsOffer">144 Hz Curved Display</span>
+					</div>
+				</div>
+
+				<div class="d-flex mt-2">
+					<div class="bestElectronicsCard1 d-grid text-center">
+						<img src="HomePage_Assets/DealsSmartPhone1.png" class="SmartPhoneCardImage" alt="Card Image">
+						<span class="bestElectronicsPrdtname">Moto G85 5G</span>
+						<span class="bestElectronicsOffer">50MP OIS Cam|6000mAh</span>
+					</div>
+
+					<div class="bestElectronicsCard1 d-grid text-center">
+						<img src="HomePage_Assets/DealsSmartPhone2.png" class="SmartPhoneCardImage" alt="Card Image">
+						<span class="bestElectronicsPrdtname">Moto Edge 50 Fusion</span>
+						<span class="bestElectronicsOffer">144 Hz Curved Display</span>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<img src="HomePage_Assets/AdvertismentMainImage.webp" class="w-100 h-100 advMainImage"  alt="">
+			</div>
+		</div>
+
+		<div class="featuredAndAppliances pb-3">
 			
 			<div class="d-flex justify-content-between bestElectronicHeadingDiv">
 				<span class="bestElectronicsHeading ms-3">Featured Brands</span>
@@ -207,11 +243,11 @@
 			</div>
 
 			<div class="d-flex justify-content-between bestElectronicHeadingDiv">
-				<span class="bestElectronicsHeading">TVs and Appliances</span>
+				<span class="bestElectronicsHeading ms-2">TVs and Appliances</span>
 				<i class="fa-solid fa-circle-chevron-right bestElectronicsChevron"></i>
 			</div>
 
-			<div class="tvAndAppliances">
+			<div class="tvAndAppliances px-2">
 				<div class="bestElectronicsCard1 d-grid text-center">
 					<img src="HomePage_Assets/AppliancesImage1.png" class="SmartPhoneCardImage" alt="Card Image">
 					<span class="bestElectronicsPrdtname">Kitchen Essential</span>
@@ -286,40 +322,40 @@
 			<div class="d-flex justify-content-evenly mb-5">
 				<div class="footerSectionDiv1 d-grid">
 					<span class="footerDivionHead">ABOUT</span>
-					<span>Contact Us</span>
-					<span>About Us</span>
-					<span>Careers</span>
-					<span>Flipkart Stories</span>
-					<span>Press</span>
-					<span>Corporate Information</span>
+					<a href="D:/Flipkart_Web_Application_Project/Flipkart_Contact_Us/Flipkart_Contact_Us.html" class="link text-decoration-none">Contact Us</a>
+					<span class="link">About Us</span>
+					<span class="link">Careers</span>
+					<span class="link">Flipkart Stories</span>
+					<span class="link">Press</span>
+					<span class="link">Corporate Information</span>
 				</div>
 
 				<div class="footerSectionDiv2 d-grid">
 					<span class="footerDivionHead">GROUP COMPANIES</span>
-					<span>Myntra</span>
-					<span>Clear Trip</span>
-					<span>Shopsy</span>
+					<span class="link">Myntra</span>
+					<span class="link">Clear Trip</span>
+					<span class="link">Shopsy</span>
 				</div>
 
 				<div class="footerSectionDiv3 d-grid">
 					<span class="footerDivionHead">HELP</span>
-					<span>payments</span>
-					<span>Shipping</span>
-					<span>Cancelation & returns</span>
-					<span>Flipkart Stories</span>
-					<span>FAQ</span>
-					<span>Report Infringment</span>
+					<span class="link">payments</span>
+					<span class="link">Shipping</span>
+					<span class="link">Cancelation & returns</span>
+					<span class="link">Flipkart Stories</span>
+					<span class="link">FAQ</span>
+					<span class="link">Report Infringment</span>
 				</div>
 
 				<div class="footerSectionDiv4 d-grid">
 					<span class="footerDivionHead">CONSUMER POLICY</span>
-					<span>Cancellation & Returns</span>
-					<span>Terms Of Use</span>
-					<span>Security</span>
-					<span>Privacy</span>
-					<span>Sitemap</span>
-					<span>Greivence Redressal</span>
-					<span>EPR Compliance</span>
+					<span class="link">Cancellation & Returns</span>
+					<span class="link">Terms Of Use</span>
+					<span class="link">Security</span>
+					<span class="link">Privacy</span>
+					<span class="link">Sitemap</span>
+					<span class="link">Greivence Redressal</span>
+					<span class="link">EPR Compliance</span>
 				</div>
 			
 				<div class="footerSectionDiv5 d-grid">
@@ -344,14 +380,15 @@
 					<span> Bengaluru, 560103, </span>
 					<span> Karnataka, India</span>
 					<span> CIN : U51109KA2012PTC066107 </span>
+					<span>Telephone:<span class="text-primary"> 044-45614700 / 044-67415800</span></span>
 				</div>
 			</div>
 			<div class="footerAnchorSection d-flex justify-content-evenly">
-				<a href="" class="footerAnchor"><img src="HomePage_Assets/FooterIcon1.png" href="">Became a seller</a>
-				<a href="" class="footerAnchor"><img src="HomePage_Assets/FooterIcon2.png" href="">Advertise</a>
-				<a href="" class="footerAnchor"><img src="HomePage_Assets/FooterIcon3.png" href="">Gift Cards</a>
-				<a href="" class="footerAnchor"><img src="HomePage_Assets/FooterIcon4.png" href="">Help Center</a>
-				<span><img src="HomePage_Assets/FooterIcon5.png" href="">2007 - 2024 Flikart.com</span>
+				<a href="" class="footerAnchor"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" href="">Became a seller</a>
+				<a href="" class="footerAnchor"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg" href="">Advertise</a>
+				<a href="" class="footerAnchor"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg" href="">Gift Cards</a>
+				<a href="" class="footerAnchor"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg" href="">Help Center</a>
+				<span> © 2007 - 2024 Flikart.com</span>
 				<img src="HomePage_Assets/FootercardList.png" alt="Card image">
 			</div>
 		</div>

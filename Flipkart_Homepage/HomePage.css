@@ -8,6 +8,12 @@ body{
 	font-family:Roboto,Helvetica,Arial,sans-serif;
 	background-color:#f2f2f2;
 }
+
+
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+
 /*Header Navigation Bar*/
 
 .flipkartHeaderNav{
@@ -106,8 +112,8 @@ body{
 
 .bestElectronicsHeading{
 	margin-top:1vw;
-	font-size:22px;
-	font-weight:500;
+	font-size:19px;
+	font-weight:600;
 }
 
 .bestElectronicsChevron{
@@ -221,17 +227,43 @@ body{
 	margin-top:4vh;
 }
 
+.advertismentAndProducts{
+	background-color:white;
+}
+
+
+.advertismentAndProducts *{
+	background-color:white;
+}
+
+.advMainImage{
+	cursor:pointer;
+}
+
+
 .footerSection{
 	background-color:#212121;
 	padding:10vh 0px 0px 0px;
 
 }
 
+.footerSectionDiv2{
+	height:20vh;
+}
+
+.link{
+	cursor:pointer;
+}
+
+.link:hover{
+	text-decoration:underline;
+}
+
+
 .footerSection *{
 	background-color:#212121;
 	color:white;
         font-size:12px;
-	font-weight:600;
 
 }
 

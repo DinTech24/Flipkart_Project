@@ -2,17 +2,18 @@
 	font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
 	padding: 0px;
 	margin: 0px;
-	background-color: #f2f2f2;
+
 }
 
 body {
 	overflow-x: hidden;
+	background-color: #f2f2f2;
 }
 
 .flipkartHeader {
 	display: flex;
 	justify-content: center;
-	background-color: #0073e6;
+	background-color: #2874F0;
 	padding: 10px 5px 10px 5px;
 	align-items: center;
 	top: 0px;
@@ -24,7 +25,7 @@ body {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	background-color: #0073e6;
+	background-color:#2874F0;
 }
 
 .headerInputDivision {
@@ -55,6 +56,7 @@ body {
 	padding: 2px 3vw 2px 3vw;
 	color: #0073e6;
 	text-decoration: none;
+	font-weight:600;
 }
 
 .headerAnchor:hover> .headerChevronDown {
@@ -90,21 +92,25 @@ body {
 }
 
 .catagoriesHeaderSection> a {
-	font-size: 14px;
+	font-size: 13px;
 	color: black;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .blueDivision {
-	background-color: #0073e6;
+	background-color: #2874F0;
 	width: 23vw;
 	color: white;
-	padding: 5vw 1vw 5vw 3vw;
+	padding: 3vw 1vw 5vw 2vw;
+}
+
+.mainSection{
+	margin-left:3.3vw;
 }
 
 .blueDivision * {
-	background-color: #0073e6;
+	background-color: #2874F0;
 }
 
 .accessToOrders {
@@ -113,7 +119,8 @@ body {
 }
 
 .loginImage {
-	margin-top: 25vh;
+	margin-top: 23vh;
+	margin-left:10px;
 }
 
 .SignUpInnerDivision {
@@ -132,7 +139,7 @@ body {
 .inputTextField {
 	width: 100%;
 	border: 1px solid transparent;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid rgb(209, 209, 209);
 }
 
 .agreeToTerms {
@@ -186,12 +193,20 @@ body {
 	background-color: #172337;
 	color: white;
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .footerSectionDiv4 {
 	padding-right: 5vw;
 	border-right: 1px solid #b7c6e1;
+}
+
+.link{
+	cursor:pointer;
+}
+
+.link:hover{
+	text-decoration:underline;
 }
 
 .footerDivionHead {
@@ -207,4 +222,8 @@ body {
 
 .footerAnchorSection a {
 	text-decoration: none;
+}
+
+.footerSectionDiv2{
+	height:20vh;
 }

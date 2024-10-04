@@ -5,8 +5,9 @@
 }
 
 body {
-	overflow-x: hidden;
+
 	background-color: #f2f2f2;
+	overflow-x: hidden;
 }
 
 .flipkartHeader {
@@ -58,6 +59,11 @@ body {
 	margin:2vw 3vw;
 	width:90%;
 
+}
+
+.headerChevronDown:hover {
+	transform:rotate(180deg);
+	transition-duration:600ms;
 }
 
 .productDescription *{
@@ -153,11 +159,16 @@ body {
 	color:#008000;
 }
 
+.orderOffers{
+	display:flex;
+	align-items:center;
+}
 
 
 .orderDetailsSpan5{
 	font-size:14px;
 	color:#008000;
+
 }
 
 
@@ -235,13 +246,61 @@ body {
 	margin-left:2vw;
 	background-color:white;
 	height:100%;
+	border:1px solid #d9d9d9;
+	position:sticky;
+	top:50px;
+	
 }
 
 .priceDetails{
-	margin-bottom:1vw;
+	margin-bottom:0.7vw;
 	font-size:16px;
 	font-weight:600;
 	color:grey;
 	border-bottom:1px solid #d9d9d9;
-	padding:1.5vw 2vw;
+	padding:1.5vh;
+	width:100%;
+}
+
+.borderDotted{
+	border-top:1px dashed #d9d9d9;
+	border-bottom:1px dashed #d9d9d9;
+}
+
+.prquanityReduce{
+	padding:7px 12px;
+	border:1px solid #d9d9d9;
+	border-radius:20px;
+	color:#d9d9d9;
+}
+.prquanityIncrease{
+	padding:7px 12px;
+	border:1px solid #d9d9d9;
+	border-radius:20px;
+	margin-left:8px;
+}
+.prquanity{
+	padding:3px 20px;
+	border:1px solid #d9d9d9;
+	margin-left:8px;
+}
+
+.cartFooter{
+	font-size:14px;
+	color:grey;
+	margin:1vh 0vw;
+	padding:3.2vh 3vw;
+	border-top:1px solid #d9d9d9;
+}
+
+.needHellpSpan{
+	margin-left:20vw;
+}
+
+.fontWeight{
+	font-weight:600;
+}
+
+.footerSectionDiv2{
+	height:20vh;
 }

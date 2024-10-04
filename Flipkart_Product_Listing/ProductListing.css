@@ -12,6 +12,7 @@ body {
 .flipkartHeader {
 	display: flex;
 	justify-content: center;
+	width:100%;
 	background-color: #0073e6;
 	padding: 10px 5px 10px 5px;
 	align-items: center;
@@ -93,18 +94,30 @@ body {
 .pageFullPath {
 	font-size: 12px;
 	color: rgb(132, 131, 131);
+	margin-left:10px;
+}
+
+
+.filteringProducts{
+	font-size:13px;
+	width:60%;
+	margin-left:8px;
+}
+
+.sortBySpan{
+	font-weight:600;
 }
 
 .phonesEntireDivision {
 	background-color: white;
-	width:72%;
+	width:80%;
 }
 
 .filterHead{
 	font-size:18px;
 	font-weight:600;
 	border-bottom:1px solid #f2f2f2;
-	margin-top:8px;
+	padding-top:8px;
 }
 
 .catagorieshead{
@@ -138,6 +151,10 @@ body {
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	margin-left:1vw;
+}
+
+.eachPhoneDiv:hover>.eachPhoneDivChild>.productName{
+	color:#0073e6;
 }
 
 .addToCompare {
@@ -189,6 +206,7 @@ body {
 .showingResults {
 	font-size: 15px;
 	font-weight: 600;
+	margin-left:10px;
 }
 
 .freeDelivery {
@@ -232,6 +250,7 @@ body {
 	margin-right:0.6vw;
 	font-weight:600;
 	font-size:13px;
+	cursor:pointer;
 }
 
 
@@ -244,22 +263,67 @@ body {
 	border-radius:15px;
 	background-color:#0073e6;
 	color:white;
+	cursor:pointer;
 }
 
 .nextSpan{
 	font-size:13px;
 	color:#0073e6;
+	cursor:pointer;
+}
+
+.lookingForDiv{
+	display:flex;
+	padding:2vh 0px ;
+	border-bottom: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	align-items:center;
+
+}
+
+.lookingForSpan{
+	font-size:15px;
+	font-weight:600;
+
+}
+
+.YesResponse{
+	padding:3px 20px;
+	border: 1px solid #cccccc;
+	margin-left:10px;
+	cursor:pointer;
+}
+
+.NoResponse{
+	padding:3px 20px;
+	border: 1px solid #cccccc;
+	margin-left:10px;
+	cursor:pointer;
 }
 
 
 .filterDeviceDivision{
 	background-color:white;
-	height:100%;
 
 }
 
 .filterImage{
 	cursor:pointer;
+}
+
+.helpMeDecideDiv{
+	text-align:center;
+}
+
+.needSpan{
+	font-size:13px;
+	margin-top:10px;
+}
+
+.helpMeDecide{
+	color:#0073e6;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .catagoriesBorder{
@@ -276,6 +340,18 @@ body {
 	color: white;
 	font-size: 12px;
 	font-weight: 600;
+}
+
+.footerSectionDiv2{
+	height:20vh;
+}
+
+.link{
+	cursor:pointer;
+}
+
+.link:hover{
+	text-decoration:underline;
 }
 
 .footerSectionDiv4 {
