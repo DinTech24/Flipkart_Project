@@ -1,0 +1,306 @@
+* {
+	font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+}
+
+.flipkartHeader {
+	display: flex;
+	justify-content: center;
+	background-color: #0073e6;
+	padding: 10px 5px 10px 5px;
+	align-items: center;
+	top: 0px;
+	position: sticky;
+	z-index: 1;
+}
+
+.headerAnchor {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #0073e6;
+
+}
+
+.headerInputDivision {
+	width: 40vw;
+	margin: 0px 1.2vw 0px 0.8vw;
+	background-color: white;
+	box-shadow: 1px 1px black;
+	border-radius: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 5px 0px 25px;
+	margin-right:20vw;
+}
+
+.headerInput {
+	width: 75%;
+	border: none;
+	height: 35px;
+	background-color: white;
+}
+
+
+.headerAnchor {
+	margin-left: 3.4vw;
+}
+
+.cartPageMain{
+	display:flex;
+	margin:2vw 3vw;
+	width:90%;
+
+}
+
+.headerChevronDown:hover {
+	transform:rotate(180deg);
+	transition-duration:600ms;
+}
+
+.productDescription *{
+	background-color:white;
+}
+
+.productDescription{
+	background-color:white;
+	width:70%;
+	border:1px solid #d9d9d9;
+	border-radius:5px;
+}
+
+.mainSectionHeader{
+	display:flex;
+	justify-content:space-between;
+	font-size:13px;
+	align-items:center;
+	padding:0.7vw 1vw;
+	border-bottom:1px solid #d9d9d9;
+	border-radius:5px;
+}
+
+.productNameSize{
+	color:black;
+	text-decoration:none;
+}
+
+.emptyDiv{
+	height:10px;
+	background-color: #f2f2f2;
+}
+
+.deliveryPincode{
+	text-decoration:none;
+	padding:0.5vw 1vw;
+	border:1px solid #d9d9d9;
+	border-radius:3px;
+}
+
+.orderDetailsDiv{
+	display:flex;
+}
+
+.digitalFinanceInnerDiv{
+	display:flex;
+	justify-content:space-evnly;
+}
+
+.digitalFinanceDivision{
+	margin:2vw 2vw;
+	width:94%;
+	background-color:#f4f8ff;
+	border:1px solid #d9d9d9;
+	padding:1vw;
+}
+
+.digitalFinanceDivision *{
+	background-color:#f4f8ff;
+}
+
+.digitalSuraksha{
+	font-size:16px;
+	font-weight:600;
+}
+
+
+.orderDetailsSpan1{
+	font-size:13px;
+	margin-top:10px;
+	color:#a6a6a6;
+}
+
+.orderPack{
+	font-size:13px;
+	color:#a6a6a6;
+}
+
+.orderDetailsSpan2{
+	font-size:13px;
+	color:#a6a6a6;
+	text-decoration:line-through 1px solid #a6a6a6;
+}
+
+.orderDetailsSpan3{
+	font-size:18px;
+	font-weight:600;
+}
+
+
+.orderDetailsSpan4{
+	font-size:14px;
+	color:#008000;
+}
+
+.orderOffers{
+	display:flex;
+	align-items:center;
+}
+
+
+.orderDetailsSpan5{
+	font-size:14px;
+	color:#008000;
+
+}
+
+
+.orderDetailsSpan6{
+	font-size:13px;
+	margin-left:15vw;
+}
+
+.knowMore{
+	color:#0073e6;
+	cursor:pointer;
+}
+
+.financeMonth{
+	font-size:13px;
+	color:grey;
+}
+
+.digitalFinanceDivision{
+	background-color:#f4f8ff;
+}
+
+.digitalFinanceDivision *{
+	background-color:#f4f8ff;
+}
+
+.digitalSurakshaDetails{
+	margin-left:2vw;
+}
+
+.digitalFinancespan{
+	font-size:14px;
+	width:94%;
+
+}
+
+.addItemButton{
+	padding:0.8vw 2vw;
+	width:50%;
+	background-color:#ff9f00;
+	height:15%;
+	text-align:center;
+	cursor:pointer;
+	border-radius:2px;
+	font-size:14px;
+	color:white;
+}
+
+.placeOrderButton{
+	padding:1vw 3vw;
+	width:30%;
+	background-color:#e65c00;
+	height:8vh;
+	text-align:center;
+	cursor:pointer;
+	border-radius:2px;
+	font-size:14px;
+	color:white;
+	margin:1vw 1vw 1vw auto;
+	font-weight:600;
+	
+	
+}
+
+.placeOrderDiv{
+	height:6vw;
+	bottom:0px;
+	position:sticky;
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+	padding-top:0.5vw;
+}
+
+.productPrice{
+	width:25vw;
+	margin-left:2vw;
+	background-color:white;
+	height:100%;
+	border:1px solid #d9d9d9;
+	position:sticky;
+	top:50px;
+	
+}
+
+.priceDetails{
+	margin-bottom:0.7vw;
+	font-size:16px;
+	font-weight:600;
+	color:grey;
+	border-bottom:1px solid #d9d9d9;
+	padding:1.5vh;
+	width:100%;
+}
+
+.borderDotted{
+	border-top:1px dashed #d9d9d9;
+	border-bottom:1px dashed #d9d9d9;
+}
+
+.prquanityReduce{
+	padding:7px 12px;
+	border:1px solid #d9d9d9;
+	border-radius:20px;
+	color:#d9d9d9;
+}
+.prquanityIncrease{
+	padding:7px 12px;
+	border:1px solid #d9d9d9;
+	border-radius:20px;
+	margin-left:8px;
+}
+.prquanity{
+	padding:3px 20px;
+	border:1px solid #d9d9d9;
+	margin-left:8px;
+}
+
+.cartFooter{
+	font-size:14px;
+	color:grey;
+	margin:1vh 0vw;
+	padding:3.2vh 3vw;
+	border-top:1px solid #d9d9d9;
+}
+
+.needHellpSpan{
+	margin-left:20vw;
+}
+
+.fontWeight{
+	font-weight:600;
+}
+
+.footerSectionDiv2{
+	height:20vh;
+}
