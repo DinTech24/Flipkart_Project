@@ -1,4 +1,3 @@
-
 * {
 	font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
 	padding: 0px;
@@ -413,10 +412,6 @@ body {
 	font-size: 1.2vw;
 }
 
-.screenDivision2Button *{
-	background-color: #7e7c7a;
-}
-
 .intrestedProductDiv{
 	padding: 1vw 2vw;
     margin-bottom: 5vh;
@@ -716,7 +711,7 @@ body {
 }
 
 .mobileScreenDivisionButton1{
-	width: 50%;
+	width: 49.6%;
 	height: 8vw;
 	background-color: white;
 	color: black;
@@ -727,7 +722,7 @@ body {
 
 }
 .mobileMcreenDivisionButton2{
-	width: 50%;
+	width: 49.6%;
 	height: 8vw;	
 	background-color: #e4b723;
 	border: none;
@@ -757,16 +752,16 @@ body {
 	height: 5vw;
 }
 
-.useItToSave{
-	font-size:3vw;
+@media screen and (max-width:890px){
+	
+	.catagoriesHeaderSection>a{
+		font-size: 1.5vw;
+		font-weight: 500;
+	}
+
 }
 
-
-
 @media screen and (max-width:991px){
-	body{
-		background-color:white;
-	}
 	
 	.intrestedProductDiv{
 		width: 30%;
@@ -777,52 +772,13 @@ body {
 		height: 20vw;
 		margin: auto;
 	}
-	.productMobileImage{
-		width: 90vw;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.intrestedProductDiv{
-		width: 96%;
-		align-items: center;
-	}
-
-	.intrestedProductHead{
-		font-size: 26px;
-	}
-
-	.intrestedProduct{
-		margin: 0%;
-	}
-
-	.intrestedProductOffer{
-		font-size: 24px;
-	}
-
-	.intrestedProductButton{
-		width: 100%;
-		font-size: x-large;
-	}
-	.similarProducts{
-		font-size: 4vw;
-		font-weight:400;
-		font-family: 'Times New Roman', Times, serif;
-	}
-}
-
-@media screen and (max-width:890px){
-	
-	.catagoriesHeaderSection>a{
-		font-size: 1.5vw;
-		font-weight: 500;
-	}
-
 }
 
 
 @media screen and (max-width:770px){
-
+	body{
+		background-color:white;
+	}
 	.viewMoreMobile{
 		font-size: 13px;
 		color: #0073e6;
@@ -846,13 +802,20 @@ body {
 		font-family: 'Times New Roman', Times, serif;
 		font-size: x-large;
 	}
-
+	.similarProducts{
+		font-size: 28px;
+		font-weight:400;
+		font-family: 'Times New Roman', Times, serif;
+	}
 
 	.productDivisionImage{
 		width: 40vw;
 		height: 40vw;
 	}
 
+	.intrestedProduct{
+		margin: 0%;
+	}
 
 	.productCardDetails{
 		text-align: left;
@@ -887,45 +850,9 @@ body {
 		font-size: 18px;
 	}
 
-	.allOffers{
-		font-size:18px;
+	.productMobileImage{
+		width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
-	.overFlowControll {
-		overflow-x:scroll;
-	}
-
-	.borderColor{
-		border: 1px solid rgb(244, 237, 237);
-	}
-
-	.ratingAndReviews{
-		font-size:16px;
-		font-family: 'Times New Roman', Times, serif;
-		font-weight:500;
-	}
-
-	.ratingTableImage{
-		width:90vw;
-	}
-
-	.ratingImage{
-		width:20vw;
-		height:20vw;
-	}
-
-	.userCommentHead{
-		font-size:14px;
-		font-family: 'Times New Roman', Times, serif;
-		font-weight:500;
-	}
-
-}
-
-@media screen and (max-width:340px){
-	
-	.enterPincode{
-		font-size: 12px;
-	}
-
 }
