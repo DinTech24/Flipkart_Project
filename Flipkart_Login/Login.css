@@ -1,0 +1,229 @@
+* {
+	font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #f2f2f2;
+}
+
+.flipkartHeader {
+	display: flex;
+	justify-content: center;
+	background-color: #2874F0;
+	padding: 10px 5px 10px 5px;
+	align-items: center;
+	top: 0px;
+	position: sticky;
+	z-index: 1;
+}
+
+.headerAnchor {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #2874F0;
+}
+
+.headerInputDivision {
+	width: 34vw;
+	margin: 0px 1.2vw 0px 0.8vw;
+	background-color: white;
+	box-shadow: 1px 1px black;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 5px 0px 25px;
+}
+
+.headerInput {
+	width: 75%;
+	border: none;
+	height: 35px;
+	background-color: white;
+}
+
+.headerAnchor {
+	margin-left: 3.4vw;
+}
+
+.userName {
+	background-color:#fdfcfc;
+	padding: 2px 3vw 2px 3vw;
+	color: #0073e6;
+	text-decoration: none;
+}
+
+.headerAnchor:hover> .headerChevronDown {
+	transform: rotate(180deg);
+	transition-duration: 600ms;
+}
+
+.catagoriesHeaderSection {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px 10px 0px;
+	border-bottom: rgb(209, 209, 209) solid 1px;
+	box-shadow: 1px 1px  rgb(209, 209, 209);
+	background-color: white;
+}
+
+.catagoriesHeaderSection * {
+	background-color: white;
+}
+
+.catagoriesSectionAnchor:hover > .headerChevronDown {
+	transform: rotate(180deg);
+	transition-duration: 600ms;
+	color: #0073e6;
+}
+
+.catagoriesSectionAnchor:hover {
+	color: #0073e6;
+}
+
+.catagoriesSectionAnchor> .headerChevronDown {
+	color: rgb(199, 199, 199);
+}
+
+.catagoriesHeaderSection> a {
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.mainSection{
+	margin-left:3.3vw;
+}
+
+
+.blueDivision {
+	background-color: #2874F0;
+	width: 23vw;
+	color: white;
+	padding: 3vw 1vw 5vw 2vw;
+}
+
+.blueDivision * {
+	background-color:#2874F0;
+}
+
+.accessToOrders {
+	font-size: 17px;
+	color: #bfbfbf;
+}
+
+.loginImage {
+	margin-top: 30vh;
+}
+
+.loginInnerDivision {
+	background-color: white;
+	padding: 5vw 3vw 5vw 3vw;
+}
+
+.loginInnerDivision * {
+	background-color: white;
+}
+
+.loginDivision {
+	padding: 3vh 0px 10vh 0px;
+}
+
+.inputTextField {
+	width: 100%;
+	border: 1px solid transparent;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.agreeToTerms {
+	font-size: 12px;
+	color: grey;
+	margin-top: 7vh;
+}
+
+.requestOtpButton {
+	background-color: #ff6600;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+	color: white;
+}
+
+.requestOtpDivision {
+	width: 100%;
+	background-color: #ff6600;
+	margin-top: 2vh;
+	padding: 0.7vw;
+	text-align: center;
+	cursor:pointer;
+}
+
+.requestSignIn {
+	margin-top: 40vh;
+	text-align: center;
+}
+
+.requestSignInButton {
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+	color: #0073e6;
+}
+
+.agreeToTerms a {
+	text-decoration: none;
+}
+
+.footerSection {
+	background-color: #172337;
+	padding: 10vh 0px 0px 0px;
+}
+
+.footerSection * {
+	background-color: #172337;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.footerSectionDiv4 {
+	padding-right: 5vw;
+	border-right: 1px solid #b7c6e1;
+}
+
+.footerSectionDiv2 {
+	height:20vh;
+}
+
+.link{
+	cursor:pointer;
+}
+
+.link:hover{
+	text-decoration:underline;
+}
+
+.footerDivionHead {
+	font-size: 12px;
+	color: grey;
+	margin-bottom: 1vh;
+}
+
+.footerAnchorSection {
+	border-top: 1px solid #b7c6e1;
+	padding: 2.5vw 2vw 2.5vw 2vw;
+}
+
+.footerAnchorSection a {
+	text-decoration: none;
+}
+
+.footerSectionDiv2{
+	height:20vh;
+}
